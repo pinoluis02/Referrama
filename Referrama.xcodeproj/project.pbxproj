@@ -9,19 +9,35 @@
 /* Begin PBXBuildFile section */
 		251AC10D1EAD7D70000DFEB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251AC10C1EAD7D70000DFEB3 /* AppDelegate.swift */; };
 		251AC10F1EAD7D70000DFEB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251AC10E1EAD7D70000DFEB3 /* ViewController.swift */; };
-		251AC1121EAD7D70000DFEB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 251AC1101EAD7D70000DFEB3 /* Main.storyboard */; };
 		251AC1141EAD7D70000DFEB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 251AC1131EAD7D70000DFEB3 /* Assets.xcassets */; };
 		251AC1171EAD7D70000DFEB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 251AC1151EAD7D70000DFEB3 /* LaunchScreen.storyboard */; };
+		251AC11F1EAD7DAB000DFEB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 251AC11E1EAD7DAB000DFEB3 /* Main.storyboard */; };
+		251AC1211EAD7DE8000DFEB3 /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251AC1201EAD7DE8000DFEB3 /* QRCodeViewController.swift */; };
+		251AC1231EAD7DFE000DFEB3 /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251AC1221EAD7DFE000DFEB3 /* QRScannerViewController.swift */; };
+		A00A42061EC2450500E6C893 /* WebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00A42041EC2450500E6C893 /* WebServiceManager.swift */; };
+		A00A42071EC2450500E6C893 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00A42051EC2450500E6C893 /* Networking.swift */; };
+		A00A42091EC24A1C00E6C893 /* ReferalCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00A42081EC24A1C00E6C893 /* ReferalCode.swift */; };
+		A0555C2B1EB16FFF00CAB98D /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0555C2A1EB16FFF00CAB98D /* NetworkingManager.swift */; };
+		A08539E61EC15A1E00C8B0F3 /* GenerateQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08539E51EC15A1E00C8B0F3 /* GenerateQRCodeViewController.swift */; };
+		A08539E81EC2265400C8B0F3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08539E71EC2265400C8B0F3 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		251AC1091EAD7D70000DFEB3 /* Referrama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Referrama.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		251AC10C1EAD7D70000DFEB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		251AC10E1EAD7D70000DFEB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		251AC1111EAD7D70000DFEB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		251AC1131EAD7D70000DFEB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		251AC1161EAD7D70000DFEB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		251AC1181EAD7D70000DFEB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		251AC11E1EAD7DAB000DFEB3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		251AC1201EAD7DE8000DFEB3 /* QRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		251AC1221EAD7DFE000DFEB3 /* QRScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
+		A00A42041EC2450500E6C893 /* WebServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceManager.swift; sourceTree = "<group>"; };
+		A00A42051EC2450500E6C893 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		A00A42081EC24A1C00E6C893 /* ReferalCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferalCode.swift; sourceTree = "<group>"; };
+		A0555C2A1EB16FFF00CAB98D /* NetworkingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		A08539E51EC15A1E00C8B0F3 /* GenerateQRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateQRCodeViewController.swift; sourceTree = "<group>"; };
+		A08539E71EC2265400C8B0F3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,46 @@
 		251AC10B1EAD7D70000DFEB3 /* Referrama */ = {
 			isa = PBXGroup;
 			children = (
-				251AC10C1EAD7D70000DFEB3 /* AppDelegate.swift */,
-				251AC10E1EAD7D70000DFEB3 /* ViewController.swift */,
-				251AC1101EAD7D70000DFEB3 /* Main.storyboard */,
+				A00A420A1EC2946B00E6C893 /* Model */,
+				A08539EA1EC22B9800C8B0F3 /* Login */,
+				A08539E91EC22B8B00C8B0F3 /* Helper */,
+				251AC11E1EAD7DAB000DFEB3 /* Main.storyboard */,
 				251AC1131EAD7D70000DFEB3 /* Assets.xcassets */,
+				251AC10C1EAD7D70000DFEB3 /* AppDelegate.swift */,
+				251AC1201EAD7DE8000DFEB3 /* QRCodeViewController.swift */,
+				251AC1221EAD7DFE000DFEB3 /* QRScannerViewController.swift */,
+				A08539E51EC15A1E00C8B0F3 /* GenerateQRCodeViewController.swift */,
+				251AC10E1EAD7D70000DFEB3 /* ViewController.swift */,
 				251AC1151EAD7D70000DFEB3 /* LaunchScreen.storyboard */,
 				251AC1181EAD7D70000DFEB3 /* Info.plist */,
 			);
 			path = Referrama;
+			sourceTree = "<group>";
+		};
+		A00A420A1EC2946B00E6C893 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A00A42081EC24A1C00E6C893 /* ReferalCode.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A08539E91EC22B8B00C8B0F3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A00A42041EC2450500E6C893 /* WebServiceManager.swift */,
+				A00A42051EC2450500E6C893 /* Networking.swift */,
+				A0555C2A1EB16FFF00CAB98D /* NetworkingManager.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		A08539EA1EC22B9800C8B0F3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A08539E71EC2265400C8B0F3 /* LoginViewController.swift */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +144,7 @@
 				TargetAttributes = {
 					251AC1081EAD7D70000DFEB3 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GRW4E5U559;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,9 +172,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				251AC11F1EAD7DAB000DFEB3 /* Main.storyboard in Resources */,
 				251AC1171EAD7D70000DFEB3 /* LaunchScreen.storyboard in Resources */,
 				251AC1141EAD7D70000DFEB3 /* Assets.xcassets in Resources */,
-				251AC1121EAD7D70000DFEB3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +185,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A08539E81EC2265400C8B0F3 /* LoginViewController.swift in Sources */,
+				251AC1231EAD7DFE000DFEB3 /* QRScannerViewController.swift in Sources */,
+				A08539E61EC15A1E00C8B0F3 /* GenerateQRCodeViewController.swift in Sources */,
+				A00A42071EC2450500E6C893 /* Networking.swift in Sources */,
+				251AC1211EAD7DE8000DFEB3 /* QRCodeViewController.swift in Sources */,
+				A00A42061EC2450500E6C893 /* WebServiceManager.swift in Sources */,
+				A00A42091EC24A1C00E6C893 /* ReferalCode.swift in Sources */,
 				251AC10F1EAD7D70000DFEB3 /* ViewController.swift in Sources */,
+				A0555C2B1EB16FFF00CAB98D /* NetworkingManager.swift in Sources */,
 				251AC10D1EAD7D70000DFEB3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +201,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		251AC1101EAD7D70000DFEB3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				251AC1111EAD7D70000DFEB3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		251AC1151EAD7D70000DFEB3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -260,10 +309,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: pinoluis02@gmail.com (HZRQVT88YX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = GRW4E5U559;
 				INFOPLIST_FILE = Referrama/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.luisperez.Referrama;
+				PRODUCT_BUNDLE_IDENTIFIER = referrama.Referrama;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -272,10 +325,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: pinoluis02@gmail.com (HZRQVT88YX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = GRW4E5U559;
 				INFOPLIST_FILE = Referrama/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.luisperez.Referrama;
+				PRODUCT_BUNDLE_IDENTIFIER = referrama.Referrama;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -299,6 +356,7 @@
 				251AC11D1EAD7D70000DFEB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
